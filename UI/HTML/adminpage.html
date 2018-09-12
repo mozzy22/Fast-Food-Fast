@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fast-foods-fast</title>
+    <link rel="stylesheet" href="../CSS/adminpage.css">
+    <script src="../JS/adminpage.js" type="text/JavaScript"></script>
+    
+    <meta charset="UTF-8"> 
+    <meta name="description" content="Front End for a level-up Events app">
+    <meta name="keywords"  lang ="en-us"  content="events, event, app, level-up, andela">
+    <meta name="author" content="Mutesasira Moses">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scale-scalable=0">
+    <meta http-equiv ="X-UA-Compatible" content = "IE-edge, chrome = 1" > 
+    <meta  name = "handheldfriendly" content = "true">
+  </head>
+  <body>
+        <div class="topnav">
+                <a class="active" href="../../index.html">Home</a>
+                <a href="../../index.html">Logout</a>
+                <a href="orderpage.html">Order page</a>
+        </div>
+
+
+      <div  id = "left">
+       <img id = "logo" src= "../IMAGES/logo.jpg" >
+      </div>
+
+
+     
+      <div class="tab">
+        <button class="tablinks" onmouseover="openCity(event, 'div1')">Aprove orders</button>
+        <button class="tablinks" onmouseover="openCity(event, 'div2')">All orders</button>
+      </div>
+      
+      <div id="div1" class="tabcontent">
+          <div id ="orders">
+              <span class = "ordered">3 plain chicken ,1 passon juice. 50$ </span>
+              <div class="radio">
+                 <form >
+                   <span> accept<input type="radio" name = "mark">  </span>
+                   <span> decline<input type="radio"  name = "mark"> </span>
+                   <span>complete <input type="checkbox"> </span>
+                   <span><input class="finish"  type = "submit" value = "finish"/> </span>
+                 </form>
+              </div>
+             </div>
+           <div id ="orders">
+              <span class = "ordered">3 chips and chicken  ,1 passon juice.  50$ </span>
+              <div class="radio">
+                  <form >
+                    <span> accept<input type="radio" name = "mark">  </span>
+                    <span> decline<input type="radio"  name = "mark"> </span>
+                    <span>complete <input type="checkbox"> </span>
+                    <span><input class="finish"  type = "submit" value = "finish"/> </span>
+                  </form>
+               </div>
+          </div>
+          <div id ="orders">
+              <span class = "ordered">1 plain rice ,1 cocktail juice.  50$ </span>
+              <div class="radio">
+                  <form >
+                    <span> accept<input type="radio" name = "mark">  </span>
+                    <span> decline<input type="radio"  name = "mark"> </span>
+                    <span>complete <input type="checkbox"> </span>
+                    <span><input class="finish"  type = "submit" value = "finish"/> </span>
+                  </form>
+               </div>
+           </div>
+          <div id ="orders">
+              <span class = "ordered">2 plain chichen ,1 passon juice.  50$ </span>
+              <div class="radio">
+                  <form >
+                    <span> accept<input type="radio" name = "mark">  </span>
+                    <span> decline<input type="radio"  name = "mark"> </span>
+                    <span>complete <input type="checkbox"> </span>
+                    <span><input class="finish"  type = "submit" value = "finish"/> </span>
+                  </form>
+               </div>
+          </div>
+
+          <div id ="orders">
+              <span class = "ordered">3 plain chichen ,1 passon juice.  50$ </span>
+              <div class="radio">
+                  <form >
+                    <span> accept<input type="radio" name = "mark">  </span>
+                    <span> decline<input type="radio"  name = "mark"> </span>
+                    <span>complete <input type="checkbox"> </span>
+                    <span><input class="finish"  type = "submit" value = "finish"/> </span>
+                  </form>
+               </div>
+          </div>
+          <div id ="orders">
+              <span class = "ordered">3 pizza   50$ </span>
+              <div class="radio">
+                  <form >
+                    <span> accept<input type="radio" name = "mark">  </span>
+                    <span> decline<input type="radio"  name = "mark"> </span>
+                    <span>complete <input type="checkbox"> </span>
+                    <span><input class="finish"  type = "submit" value = "finish"/> </span>
+                  </form>
+               </div>
+            </div>
+          <div id ="orders">
+              <span class = "ordered">3 plain chichen ,1 passon juice.  50$ </span>
+               <div class="radio">
+                 <form >
+                   <span> accept<input type="radio" name = "mark">  </span>
+                   <span> decline<input type="radio"  name = "mark"> </span>
+                   <span>complete <input type="checkbox"> </span>
+                   <span><input class="finish"  type = "submit" value = "finish"/> </span>
+                 </form>
+              </div>
+            </div>
+
+      </div>
+      
+      <div id="div2" class="tabcontent">
+            <div id ="orders">
+              <span class = "ordered">3 plain chicken ,1 passon juice. 50$ </span>
+              <strike class = "status">2 hrs ago. cancelled</strike>
+             </div>
+           <div id ="orders">
+              <span class = "ordered">3 chips and chicken  ,1 passon juice.  50$ </span>
+               <strong class="status">7hrs ago.  pending..</strong>
+          </div>
+          <div id ="orders">
+              <span class = "ordered">1 plain rice ,1 cocktail juice.  50$ </span>
+              <strong class="status">yesterday. completed</strong>
+           </div>
+          <div id ="orders">
+              <span class = "ordered">2 plain chichen ,1 passon juice.  50$ </span>
+               <strong class="status"> 3 days ago. completed</strong>
+          </div>
+
+          <div id ="orders">
+              <span class = "ordered">3 plain chichen ,1 passon juice.  50$ </span>
+              <strong class="status">5 daysago.  completed</strong>
+          </div>
+          <div id ="orders">
+              <span class = "ordered">3 pizza   50$ </span>
+                <strong class="status">5 das ago.  completed</strong>
+            </div>
+          <div id ="orders">
+              <span class = "ordered">3 plain chichen ,1 passon juice.  50$ </span>
+               <strong class="status">2 weeks ago. completed</strong>
+            </div>
+      </div>
+ 
+
+
+
+</body>
+</html>
