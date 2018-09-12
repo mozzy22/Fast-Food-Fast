@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fast-foods-fast</title>
+    <link rel="stylesheet" href="../CSS/orderpage.css">
+    <script src="../JS/orderpage.js" type="text/JavaScript"></script>
+    
+    <meta charset="UTF-8"> 
+    <meta name="description" content="Front End for a level-up Events app">
+    <meta name="keywords"  lang ="en-us"  content="events, event, app, level-up, andela">
+    <meta name="author" content="Mutesasira Moses">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scale-scalable=0">
+    <meta http-equiv ="X-UA-Compatible" content = "IE-edge, chrome = 1" > 
+    <meta  name = "handheldfriendly" content = "true">
+  </head>
+  <body>
+        <div class="topnav">
+                <a class="active" href="../../index.html">Home</a>
+                <a href="../../index.html">Logout</a>
+                <a href="#contact">Admin page</a>
+        </div>
+
+
+      <div  id = "left">
+       <img id = "logo" src= "../IMAGES/logo.jpg" >
+      </div>
+
+
+     
+      <div class="tab">
+        <button class="tablinks" onmouseover="openCity(event, 'div1')">Place order</button>
+        <button class="tablinks" onmouseover="openCity(event, 'div2')">My orders</button>
+      </div>
+      
+      <div id="div1" class="tabcontent">
+        <form id = "formA" method = "POST">
+          <p>Place order</p>
+       
+              <div>
+
+                  <div>
+                  <span>
+                      <select id="country" name="country">
+                          <option selected="selected"value="au">Select food</option>
+                          <option value="ca">vegetable pizza :25$</option>
+                          <option value="usa">plain rice :15$</option>
+                          <option value="ca">plain chips :20$</option>
+                          <option value="usa">Rice and liver :40$</option>
+                          <option value="ca">Rice and fish : 35$</option>
+                          <option value="usa">chicken : 35$</option>
+                          <option value="ca">Chips and chicken : 40$</option>
+                          <option value="usa">Beef pizza</option>
+                          <option value="ca">chicken pizza : 35$</option>
+                          
+                        </select>
+                  </span>
+
+                  <span>
+                      <select id="country" name="country">
+                          <option selected="selected" value="au">Select drink</option>
+                          <option value="ca">orange juice : 10$</option>
+                          <option value="usa">passion juice : 10$</option>
+                          <option value="ca">mangoe juice :10$</option>
+                          <option value="usa">cocktail : 12$</option>
+                          <option value="ca">apple juice :10$</option> 
+                        </select>
+                  </span>
+                </div>
+
+                <div>
+                  <span>
+                      <select id="country" name="country">
+                          <option selected="selected"value="au">Quantity</option>
+                          <option value="ca">1</option>
+                          <option value="usa">2</option>
+                          <option value="ca">3</option>
+                          <option value="usa">4</option>
+                          <option value="ca">5</option>
+                          <option value="usa">6</option>
+                          <option value="ca">7</option>
+                          <option value="usa">8</option>
+                          <option value="ca">9</option>
+                          <option value="usa">10</option>
+                        </select>
+                  </span>
+                  <span>
+                      <select id="country" name="country">
+                          <option  selected="selected"value="au">Quantity</option>
+                          <option value="ca">1</option>
+                          <option value="usa">2</option>
+                          <option value="ca">3</option>
+                          <option value="usa">4</option>
+                          <option value="ca">5</option>
+                          <option value="usa">6</option>
+                          <option value="ca">7</option>
+                          <option value="usa">8</option>
+                          <option value="ca">9</option>
+                          <option value="usa">10</option>
+                        </select>
+                  </span>
+                </div>         
+              </div>
+
+            <div class="input">
+              <input class="inputbutton4"  type = "submit" value = "Place order"/>
+              </div>
+          </form>
+      </div>
+      
+      <div id="div2" class="tabcontent">
+            <div id ="orders">
+              <span class = "ordered">3 plain chicken ,1 passon juice. 50$ </span>
+              <strike class = "status">2 hrs ago. cancelled</strike>
+             </div>
+           <div id ="orders">
+              <span class = "ordered">3 chips and chicken  ,1 passon juice.  50$ </span>
+               <strong class="status">7hrs ago.  pending..</strong>
+          </div>
+          <div id ="orders">
+              <span class = "ordered">1 plain rice ,1 cocktail juice.  50$ </span>
+              <strong class="status">yesterday. completed</strong>
+           </div>
+          <div id ="orders">
+              <span class = "ordered">2 plain chichen ,1 passon juice.  50$ </span>
+               <strong class="status"> 3 days ago. completed</strong>
+          </div>
+
+          <div id ="orders">
+              <span class = "ordered">3 plain chichen ,1 passon juice.  50$ </span>
+              <strong class="status">5 daysago.  completed</strong>
+          </div>
+          <div id ="orders">
+              <span class = "ordered">3 pizza   50$ </span>
+                <strong class="status">5 das ago.  completed</strong>
+            </div>
+          <div id ="orders">
+              <span class = "ordered">3 plain chichen ,1 passon juice.  50$ </span>
+               <strong class="status">2 weeks ago. completed</strong>
+            </div>
+      </div>
+ 
+
+
+
+</body>
+</html>
