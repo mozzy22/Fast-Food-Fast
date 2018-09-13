@@ -28,10 +28,10 @@
 
      
       <div class="tab">
-          <button class="tablinks" onmouseover="openCity(event, 'div1')">Aprove orders</button>
-          <button class="tablinks" onmouseover="openCity(event, 'div2')">All orders</button>
-          <button class="tablinks" onmouseover="openCity(event, 'div3')">Edit Foods items</button>
-          <button class="tablinks" onmouseover="openCity(event, 'div4')">Add Foods item</button>
+          <button class="tablinks" onmouseover="open2(event, 'div1')">Aprove orders</button>
+          <button class="tablinks" onmouseover="open2(event, 'div2')">All orders</button>
+          <button class="tablinks" onmouseover="open2(event, 'div3')">Edit Foods items</button>
+          <button class="tablinks" onmouseover="open2(event, 'div4')">Add Foods item</button>
         
       </div>
 
@@ -306,18 +306,18 @@
 
       <div id="div4" class="tabcontent">
 
-          <form id = "formA" method = "POST">
+          <form id = "formA" name = "formitem" method = ""  onsubmit="return validateadditem()" action ="">
               <p>Add Food item</p>
        
               <div>
                   <div class="input">
                      <span> Item name:</span>
-                        <input class="inputbutton1" type = "text" name = "first" placeholder= "name"/>
+                        <input class="inputbutton1" type = "text" name = "name" placeholder= "name"/>
                   </div>
     
                   <div class="input">
                           <span>Price</span>
-                           <input class="inputbutton2"  type = "text" name = "second" placeholder= "price"/>
+                           <input class="inputbutton2"  type = "text" name = "price" placeholder= "price"/>
                      </div>
     
                  <div class="input">

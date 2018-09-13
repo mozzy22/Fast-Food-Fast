@@ -4,6 +4,10 @@ function validatelogin() {
   
     filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
 
+    if (pass == "")  {
+        alert("Empty Password, plese fill in the password");
+        return false;
+    }
     
 
     if (x == "")  {
@@ -16,11 +20,6 @@ function validatelogin() {
      return true;  
     }  
     
-    else if (pass == "")  {
-        alert("Empty Password, plese fill in the password");
-        return false;
-    }
-
      else 
      {  
         alert("invalid email");
