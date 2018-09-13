@@ -103,9 +103,7 @@ p{
 .tabcontent {
     float: right;
     padding: 0px 12px;
-    border: 1px solid #ccc;
     width: 65%;
-    border-left: none;
     height: 640px;
     display: none;
     margin-left: 10px;
@@ -115,10 +113,6 @@ p{
     width:45%;
     height: 600px;
     margin-top:40px;
-    /* border-style: solid;
-    border-color:green;
-    border-radius:0.3rem;
-    border-width:1px; */
     text-align:center;
     margin-right: 100px;
     overflow: auto;
@@ -131,10 +125,6 @@ p{
     width:45%;
     height: 600px;
     margin-top:40px;
-    /* border-style: solid;
-    border-color:green;
-    border-radius:0.3rem;
-    border-width:1px; */
     text-align:center;
     margin-right: 100px;
     overflow: auto;
@@ -145,10 +135,6 @@ p{
     width:60%;
     height: 580px;
     margin-top:40px;
-    border-style: solid;
-    border-color:green;
-    border-radius:0.3rem;
-    border-width:1px;
     text-align:center;
     margin-right: 50px;
     overflow: auto;
