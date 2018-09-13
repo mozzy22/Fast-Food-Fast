@@ -112,41 +112,39 @@ p{
 }
 
 #div1{
-    width:45%;
-    height: 500px;
-    margin-top:70px;
+    width:60%;
+    height: 580px;
+    margin-top:40px;
     border-style: solid;
     border-color:green;
     border-radius:0.3rem;
     border-width:1px;
     text-align:center;
-    margin-right: 100px;
+    margin-right: 50px;
+    overflow: auto;
 }
 
 .inputbutton4 {
    
-    padding: 5px;
-    margin:10px;
+    margin:2px;
     background-color:#4CAF50;
     border: none;
     border-radius: 0.3rem;
     color: white;
-    padding: 15px 32px;
+    padding: 4px ;
     text-align: center;
     display: inline-block;
     font-size: 16px;
-    margin-left: 5%;
-    margin-bottom:20px;
+
 
 
 }
 
 select {
-    padding: 5px;
-    margin:10px;
-    width: 40%;
-    padding: 10px 10px;
-    border-radius: 4px;
+    padding: 2px;
+    margin:2px;
+    width: 45%;
+    border-radius: 2px;
     color:tomato;
     border-radius: 0.3rem;
     background-color:white;
@@ -160,10 +158,6 @@ select {
     width:45%;
     height: 600px;
     margin-top:40px;
-    /* border-style: solid;
-    border-color:green;
-    border-radius:0.3rem;
-    border-width:1px; */
     text-align:center;
     margin-right: 100px;
     overflow: auto;
@@ -206,4 +200,34 @@ margin-top:20px;
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
+}
+
+.orderTable{
+table-layout: fixed;
+overflow: auto;
+
+}
+td { width: 33%;
+    border-style: solid;
+    border-color: #4CAF50;
+    border-radius:0.5rem;
+    border-width:1px;
+ }
+
+.image{
+
+    display:block;
+    width : 100%;
+    margin-bottom: 5px;
+}
+
+.imagetitle{
+    padding: 0px;
+    border: 0px;
+    font-size: 20px;
+    color: firebrick;
+}
+
+#orderspan{
+
 }
