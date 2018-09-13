@@ -3,6 +3,7 @@
   <head>
     <title>Fast-foods-fast</title>
     <link rel="stylesheet" href="UI/CSS/index.css">
+    <script src="UI/JS/index.js" type="text/JavaScript"/></script>
     
     <meta charset="UTF-8"> 
     <meta name="description" content="Front End for a level-up Events app">
@@ -31,17 +32,17 @@
 
 
       <div  id = "form">
-      <form id = "formA" method = "" action="UI/HTML/orderpage.html">
+      <form id = "formA" name = "login"   onsubmit="return validatelogin()" method = "" action="UI/HTML/orderpage.html">
                  <p>Login</p>
           <div>
               <div class="input">
                  <span> User email:</span>
-                    <input class="inputbutton1" type = "text" name = "first" placeholder= "email"/>
+                    <input class="inputbutton1" type = "text" name = "email" placeholder= "email"/>
               </div>
 
               <div class="input">
                       <span> Pasword:</span>
-                       <input class="inputbutton2"  type = "password" name = "second" placeholder= "password"/>
+                       <input class="inputbutton2"  type = "password" name = "pass" placeholder= "password"/>
                  </div>
 
              <div class="input">
