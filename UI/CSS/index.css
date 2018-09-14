@@ -2,6 +2,8 @@ body {
     margin: 0;
     font-family:  sans-serif;
     background-color: white;
+    background:url(../IMAGES/bg2.jpg) no-repeat center center fixed;
+    background-size: cover;
   }
   
 
@@ -14,6 +16,7 @@ body {
     border-radius:0.3rem;
     border-width:1px;
     text-align:center;
+    background-color: white;
    
 }
 #formA {
