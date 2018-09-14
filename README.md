@@ -19,3 +19,11 @@ ___
 
 ___
 >>>>> the page UI can be found here [github pages](https://mozzy22.github.io/Fast-Food-Fast/)
+
+
+# AUTHENTICATION
+
+___
+
+ + Client users can signup , and then login to acces the "order page" to place thier orders
+ + Admin users can login with *admin@gmail.com* and password *admin* so that they can be able to acces the admin page
