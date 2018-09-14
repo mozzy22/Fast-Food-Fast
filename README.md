@@ -25,5 +25,5 @@ ___
 
 ___
 
- +Client users can signup , and then login to acces the "order page" to place thier orders
- +Admin users can login with *admin@gmail.com* and password *admin* so that they can be able to acces the admin page
+ + Client users can signup , and then login to acces the "order page" to place thier orders
+ + Admin users can login with *admin@gmail.com* and password *admin* so that they can be able to acces the admin page
