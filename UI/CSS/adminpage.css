@@ -353,7 +353,32 @@ select {
             background-color: white;
            background:none;
           }
-    
+
+          table, thead, tbody, th, td, tr { 
+            display: block; 
+        }
+        
+        tr { border: 1px solid #ccc; }
+        
+        td { 
+        
+            border: none;
+            border-bottom: 1px solid #eee; 
+            position: relative;
+            width: 100%;
+        }
+        
+        .ordered {
+            margin-top: 0px;
+            font-size: small;
+        
+        }
+        
+       #formA {
+
+        width: 100%;
+        margin-top: 10%;
+       }
         
       }
     
@@ -385,6 +410,33 @@ select {
             width: 100%;
             display:block;
         }
+
+        table, thead, tbody, th, td, tr { 
+            display: block; 
+        }
+        
+        tr { border: 1px solid #ccc; }
+        
+        td { 
+            /* Behave  like a "row" */
+            border: none;
+            border-bottom: 1px solid #eee; 
+            position: relative;
+            width: 100%;
+        }
+        
+        .ordered {
+            margin-top: 0px;
+            font-size: small;
+        }
+
+        #formA {
+
+            width: 100%;
+            margin-top: 10%;
+           }
+            
+        
     } 
     
     
