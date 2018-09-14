@@ -8,7 +8,11 @@ function validatelogin() {
         alert("Empty Password, plese fill in the password");
         return false;
     }
-    
+     if(pass == "admin"  && x == "admin@gmail.com"){
+       alert("admin redirected to admin page")
+        window.location.replace("file:///D:/1-Fast-Food-Fast/Fast-Food-Fast/UI/HTML/adminpage.html");
+        return false;
+     }
 
     if (x == "")  {
         alert("Empty email, plese fill in the email");
