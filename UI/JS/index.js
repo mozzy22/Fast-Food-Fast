@@ -10,7 +10,7 @@ function validatelogin() {
     }
      if(pass == "admin"  && x == "admin@gmail.com"){
        alert("admin redirected to admin page")
-        window.location.replace("file:///D:/1-Fast-Food-Fast/Fast-Food-Fast/UI/HTML/adminpage.html");
+        window.location.replace("https://mozzy22.github.io/Fast-Food-Fast/UI/HTML/adminpage.html");
         return false;
      }
 
