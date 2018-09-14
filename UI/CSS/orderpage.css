@@ -110,6 +110,11 @@ p{
     display: none; 
     margin-left: 10px;
     background-color: white;
+    border-style: solid;
+    border-color:green;
+    border-radius:1rem;
+    border-width:1px;
+    padding: 8px;
 }
 
 #div1{

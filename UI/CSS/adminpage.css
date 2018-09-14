@@ -110,6 +110,11 @@ p{
     display: none;
     margin-left: 10px;
     background-color: white;
+    border-style: solid;
+    border-color:green;
+    border-radius:1rem;
+    border-width:1px;
+    padding: 8px;
 }
 
 #div1{
@@ -323,3 +328,63 @@ select {
         margin-right: 150px;
         overflow: auto;
     }
+
+    @media only screen and (max-width: 600px) {
+  
+        #left {
+        display: none;      
+        }
+    
+        #form {
+            width:30%;
+            margin-top:300px;
+          
+           
+        }
+     
+        .topnav a {
+            float: none;
+            width: 100%;
+            display:block;
+        }
+        body {
+            margin: 0;
+            font-family:  sans-serif;
+            background-color: white;
+           background:none;
+          }
+    
+        
+      }
+    
+    
+    
+    @media only screen and ( max-width: 900px) {
+        body {
+            margin: 0;
+            font-family:  sans-serif;
+            background:none;
+          }
+     
+        #form {
+            text-align:center; 
+            width:100%;
+            margin-top:200px;
+            background-color:blanchedalmond;
+            margin-left:0px;
+           
+        }
+     
+    
+          #left {
+            display: none;      
+          }
+      
+        .topnav a {
+            float: none;
+            width: 100%;
+            display:block;
+        }
+    } 
+    
+    
