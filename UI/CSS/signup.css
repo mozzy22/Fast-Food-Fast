@@ -168,6 +168,7 @@ a:hover {
     #form {
         width:30%;
         margin-top:300px;
+        text-align: center;
       
        
     }
@@ -181,9 +182,14 @@ a:hover {
         margin: 0;
         font-family:  sans-serif;
         background-color: white;
-       background:none;
+        background:url(../IMAGES/bg2.jpg) no-repeat center center fixed;
+        background-size: cover;
       }
+      #formA {
 
+        width:100%;
+        text-align: center;
+     }
     
   }
 
@@ -193,7 +199,8 @@ a:hover {
     body {
         margin: 0;
         font-family:  sans-serif;
-        background:none;
+        background:url(../IMAGES/bg2.jpg) no-repeat center center fixed;
+        background-size: cover;
       }
  
     #form {
@@ -215,6 +222,14 @@ a:hover {
         width: 100%;
         display:block;
     }
+
+    #formA {
+
+        width:100%;
+        text-align: center;
+     }
+
+    
 } 
 
 
