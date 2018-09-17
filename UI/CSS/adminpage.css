@@ -149,7 +149,7 @@ p{
 
 }
 
-#orders {
+.orders {
     padding: 40px;
     height: 20%px;
     width :45;
@@ -443,7 +443,7 @@ select {
     }
     
 
-    #orders {
+    .orders {
         padding: 70px;
         height: 20%px;
         width :45;
@@ -580,7 +580,7 @@ select {
             padding: 8px;
         }
 
-        #orders {
+        .orders {
             padding: 10px;
             height: 100px;
             width :90%;

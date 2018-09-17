@@ -117,7 +117,7 @@ p{
 
 #footer {
     text-align: center;
-    margin-top : 280px ;
+    margin-top : 1% ;
     font-style: italic;
 
 }
@@ -138,26 +138,24 @@ a:hover {
 
 .details{
 
-    margin-top:10.6%;
+    margin-top:8%;
     margin-left:38%;
     width:50%;
-    height: 20%;
+    height: 1%;
     background-color: blueviolet;
     font-family: Arial, Helvetica, sans-serif;
     font-weight : 1px;
     font-style: italic;
     padding-left: 10%;
     padding-bottom: 1%;
-    font-size: 5px;
+    padding-top: 1%;
+    font-size: 1px;
     opacity: 0.8;
+    font-size: 20px;
+    color: white;
     
     }
     
-    .info{
-     font-size: 20px;
-     color: white;
-     margin-top:0px;
-    }
     .det{
         margin: 3%;
     }
