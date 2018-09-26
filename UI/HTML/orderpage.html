@@ -4,6 +4,7 @@
     <title>Fast-foods-fast</title>
     <link rel="stylesheet" href="../CSS/orderpage.css">
     <script src="../JS/orderpage.js" type="text/JavaScript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     
     <meta charset="UTF-8"> 
     <meta name="description" content="A food delivery service app for a restaurant">
@@ -13,32 +14,27 @@
     <meta http-equiv ="X-UA-Compatible" content = "IE=edge" > 
     <meta  name = "handheldfriendly" content = "true">
   </head>
-  <body>
+  <body onload = "see()"> 
         <div class="topnav">
                 <a class="active" href="../../index.html">Home</a>
                 <a href="../../index.html">Logout</a>
         </div>
+        <div class ="name">
+                <p>FAST FOOD FAST</p>
+        </div>
 
-
-      <div  id = "left">
-       <img id = "logo" src= "../IMAGES/logo2.jpg"  alt = "logo" >
-      </div>
-
-
-     
-      <div class="tab">
+      <div class="tab" >
         <button class="tablinks" onmouseover="open1(event, 'div1')">Place order</button>
         <button class="tablinks" onmouseover="open1(event, 'div2')">My orders</button>
       </div>
       
-      <div id="div1" class="tabcontent">
-       
+      <div id="div1" class="tabcontent">   
           <table class = "orderTable">
                 <tr>
                     <td> 
                       <p class = "imagetitle">chicken pizza :20$ </p>
                       <img class = "image" src= "../IMAGES/chickenPizza.jpg"  alt = "pizza">
-                      <form>
+                      <form method ="GET" action = "succes.html">
                         <span >
                           <select >
                               <option selected="selected" value="au">Quantity</option>
@@ -55,14 +51,14 @@
                             </select>
                         </span>
                         <span>
-                            <input class="inputbutton4"  type = "submit" value = "order"/>
+                            <input class="inputbutton4" onclick="order()"  type = "submit" value = "order"/>
                           </span>
                       </form>
                     </td>
                     <td> 
                         <p class = "imagetitle">chips and chicken :30$ </p>
                       <img class = "image" src= "../IMAGES/chipsandchicken.jpg"  alt = "chicken">
-                      <form>
+                      <form method ="GET" action = "succes.html">
                           <span >
                             <select >
                                 <option selected="selected" value="au">Quantity</option>
@@ -79,14 +75,14 @@
                               </select>
                           </span>
                           <span>
-                              <input class="inputbutton4"  type = "submit" value = "order"/>
+                              <input class="inputbutton4" onclick="order()" type = "submit" value = "order"/>
                             </span>
                         </form>
                     </td>
                     <td> 
                         <p class = "imagetitle">Drinks :20$ </p>
                       <img class = "image"  src= "../IMAGES/juice.jpg"  alt = "juice">
-                      <form>
+                      <form method ="GET" action = "succes.html">
                           <select id="juice" name="jui">
                               <option selected="selected" value="au">Select drink</option>
                               <option value="ca">orange juice : 10$</option>
@@ -111,7 +107,7 @@
                               </select>
                           </span>
                           <span>
-                              <input class="inputbutton4"  type = "submit" value = "order"/>
+                              <input class="inputbutton4" onclick="order()" type = "submit" value = "order"/>
                             </span>
                         </form>
                     </td>
@@ -120,7 +116,7 @@
                   <td> 
                       <p class = "imagetitle">Fish:25$ </p>
                     <img class = "image"  src= "../IMAGES/fish.jpg"  alt = "fish">
-                    <form>
+                    <form method ="GET" action = "succes.html">
                         <span >
                           <select  >
                               <option selected="selected" value="au">Quantity</option>
@@ -137,14 +133,14 @@
                             </select>
                         </span>
                         <span>
-                            <input class="inputbutton4"  type = "submit" value = "order"/>
+                            <input class="inputbutton4" onclick="order()" type = "submit" value = "order"/>
                           </span>
                       </form>
                   </td>
                   <td> 
                       <p class = "imagetitle">Meat pizza :20$ </p>
                     <img class = "image" src= "../IMAGES/pizzameat.jpg" alt = "pizza">
-                    <form>
+                    <form method ="GET" action = "succes.html">
                         <span >
                           <select  >
                               <option selected="selected" value="au">Quantity</option>
@@ -161,14 +157,14 @@
                             </select>
                         </span>
                         <span>
-                            <input class="inputbutton4"  type = "submit" value = "order"/>
+                            <input class="inputbutton4" onclick="order()" type = "submit" value = "order"/>
                           </span>
                       </form>
                   </td>
                   <td> 
                       <p class = "imagetitle">Rice and fish :40$ </p>
                     <img class = "image"  src= "../IMAGES/rceandfish.jpg" alt = "fish">
-                    <form>
+                    <form method ="GET" action = "succes.html">
                         <span >
                           <select  >
                               <option selected="selected" value="au">Quantity</option>
@@ -185,7 +181,7 @@
                             </select>
                         </span>
                         <span>
-                            <input class="inputbutton4"  type = "submit" value = "order"/>
+                            <input class="inputbutton4" onclick="order()" type = "submit" value = "order"/>
                           </span>
                       </form>
                   </td>
@@ -194,7 +190,7 @@
                 <td> 
                     <p class = "imagetitle">rice and liver :45$ </p>
                   <img class = "image" src= "../IMAGES/riceandliver.jpg" alt = "liver">
-                  <form>
+                  <form method ="GET" action = "succes.html">
                       <span >
                         <select >
                             <option selected="selected" value="au">Quantity</option>
@@ -211,14 +207,14 @@
                           </select>
                       </span>
                       <span>
-                          <input class="inputbutton4"  type = "submit" value = "order"/>
+                          <input class="inputbutton4" onclick="order()" type = "submit" value = "order"/>
                         </span>
                     </form>
                 </td>
                 <td> 
                     <p class = "imagetitle">Plain rice  :20$ </p>
                   <img class = "image" src= "../IMAGES/rice.jpg" alt = "rice">
-                  <form>
+                  <form method ="GET" action = "succes.html">
                       <span >
                         <select >
                             <option selected="selected" value="au">Quantity</option>
@@ -235,14 +231,14 @@
                           </select>
                       </span>
                       <span>
-                          <input class="inputbutton4"  type = "submit" value = "order"/>
+                          <input class="inputbutton4" onclick="order()" type = "submit" value = "order"/>
                         </span>
                     </form>
                 </td>
                 <td> 
                     <p class = "imagetitle">Vegetable pizza :30$ </p>
                   <img class = "image" src= "../IMAGES/vegpizza.jpg" alt = "pizza">
-                  <form>
+                  <form method ="GET" action = "succes.html">
                       <span >
                         <select >
                             <option selected="selected" value="au">Quantity</option>
@@ -259,7 +255,7 @@
                           </select>
                       </span>
                       <span>
-                          <input class="inputbutton4"  type = "submit" value = "order"/>
+                          <input class="inputbutton4" onclick="order()" type = "submit" value = "order"/>
                         </span>
                     </form>
                 </td>
