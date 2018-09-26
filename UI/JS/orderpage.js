@@ -8,6 +8,15 @@ function open1(evt, divName) {
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
+
     document.getElementById(divName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+
+
+
+ function see(){
+     tab1 = document.getElementById("div2")
+     tab1.style.display = "none"
+ }

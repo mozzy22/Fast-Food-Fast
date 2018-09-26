@@ -8,9 +8,9 @@ body {
   
 
 #form {
-    margin-left:40%;
+    margin-left:35%;
     width:400px;
-    margin-top:70px;
+    margin-top:12%;
     border-style: solid;
     border-color: black;
     border-radius:0.6rem;
@@ -139,7 +139,7 @@ a:hover {
 footer{
     background-color: black;
     color: white;
-    margin-top: 19.5%;
+    margin-top: 12.7%;
     padding: 0.05%;
 
 }
@@ -227,10 +227,9 @@ footer{
     #form {
         text-align:center; 
         width:100%;
-        margin-top:200px;
+         margin-top:200px; 
         background-color:blanchedalmond;
-        margin-left:0px;
-       
+        margin-left:0px;      
     }
  
 

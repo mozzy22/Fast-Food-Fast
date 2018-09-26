@@ -14,7 +14,7 @@
     <meta http-equiv ="X-UA-Compatible" content = "IE=edge" > 
     <meta  name = "handheldfriendly" content = "true">
   </head>
-  <body>
+  <body onload = "see()">
         <div class="topnav">
                 <a class="active" href="../../index.html">Home</a>
                 <a href="../../index.html">Logout</a>
@@ -81,17 +81,7 @@
                </div>
           </div>
 
-          <div id ="orders">
-              <span class = "ordered">3 plain chichen ,1 passon juice.  50$ </span>
-              <div class="radio">
-                  <form >
-                    <span> accept<input type="radio" name = "mark">  </span>
-                    <span> decline<input type="radio"  name = "mark"> </span>
-                    <span>complete <input type="checkbox"> </span>
-                    <span><input class="finish"  type = "submit" value = "finish"/> </span>
-                  </form>
-               </div>
-          </div>
+           
           <div class ="orders">
               <span class = "ordered">3 pizza   50$ </span>
               <div class="radio">
@@ -113,7 +103,18 @@
                    <span><input class="finish"  type = "submit" value = "finish"/> </span>
                  </form>
               </div>
-            </div>
+            </div> 
+            <div class="orders">
+                <span class = "ordered">1 plain rice ,1 cocktail juice.  50$ </span>
+                <div class="radio">
+                    <form >
+                      <span> accept<input type="radio" name = "mark">  </span>
+                      <span> decline<input type="radio"  name = "mark"> </span>
+                      <span>complete <input type="checkbox"> </span>
+                      <span><input class="finish"  type = "submit" value = "finish"/> </span>
+                    </form>
+                 </div>
+             </div>
 
       </div>
      
@@ -146,7 +147,7 @@
         <div class="orders">
             <span class = "ordered">3 plain chichen ,1 passon juice.  50$ </span>
              <strong class="status">2 weeks ago. completed</strong>
-          </div>
+        </div>
     </div>
 
 
@@ -161,7 +162,7 @@
                     <form>
                       <div>
                         <span>Name<input class = "btn" type ="text"></span> 
-                        <span><button class = "del">Del</button> </span>
+                        <span><button onclick="delet()" class = "del">Del</button> </span>
                                          
                       </div>
                     <div>
@@ -176,7 +177,7 @@
                     <form>
                         <div>
                           <span>Name<input class = "btn" type ="text"></span> 
-                          <span><button class = "del">Del</button></span>
+                          <span><button  onclick="delet()" class = "del">Del</button></span>
                                            
                         </div>
                       <div>
@@ -191,7 +192,7 @@
                     <form>
                         <div>
                           <span>Name<input class = "btn" type ="text"></span> 
-                          <span><button class = "del">Del</button></span>
+                          <span><button onclick="delet()" class = "del">Del</button></span>
                                            
                         </div>
                       <div>
@@ -208,7 +209,7 @@
                   <form>
                       <div>
                         <span>Name<input class = "btn" type ="text"></span> 
-                        <span><button class = "del">Del</button></span>
+                        <span><button  onclick="delet()" class = "del">Del</button></span>
                                          
                       </div>
                     <div>
@@ -223,7 +224,7 @@
                   <form>
                       <div>
                         <span>Name<input class = "btn" type ="text"></span> 
-                        <span><button class = "del">Del</button></span>
+                        <span><button  onclick="delet()" class = "del">Del</button></span>
                                          
                       </div>
                     <div>
@@ -238,7 +239,7 @@
                   <form>
                       <div>
                         <span>Name<input class = "btn" type ="text"></span> 
-                        <span><button class = "del">Del</button></span>
+                        <span><button onclick="delet()" class = "del">Del</button></span>
                                          
                       </div>
                     <div>
@@ -255,7 +256,7 @@
                 <form>
                     <div>
                       <span>Name<input class = "btn" type ="text"></span> 
-                      <span><button class = "del">Del</button></span>
+                      <span><button onclick="delet()" class = "del">Del</button></span>
                                        
                     </div>
                   <div>
@@ -270,7 +271,7 @@
                 <form>
                     <div>
                       <span>Name<input class = "btn" type ="text"></span> 
-                      <span><button class = "del">Del</button></span>
+                      <span><button  onclick="delet()" class = "del">Del</button></span>
                                        
                     </div>
                   <div>
@@ -285,7 +286,7 @@
                 <form>
                     <div>
                       <span>Name<input class = "btn" type ="text"></span> 
-                      <span><button class = "del">Del</button> </span>
+                      <span><button  onclick="delet()" class = "del">Del</button> </span>
                                        
                     </div>
                   <div>

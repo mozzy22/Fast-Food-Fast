@@ -8,12 +8,12 @@ body {
   
 
 #form {
-    margin-left:40%;
+    margin-left:35%;
     width:430px;
     margin-top:70px;
     border-style: solid;
     border-color: black;
-    border-radius:0.3rem;
+    border-radius:0.6rem;
     border-width:1px;
     text-align:center;
     background-color: white;
