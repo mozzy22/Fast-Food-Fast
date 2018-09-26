@@ -2,22 +2,22 @@ body {
     margin: 0;
     font-family:  sans-serif;
     background-color: white;
-    background:url(../IMAGES/bg2.jpg) no-repeat center center fixed;
+    background:url(../IMAGES/bg7.png) no-repeat center center fixed;
     background-size: cover;
   }
   
 
 #form {
-    margin-left:55%;
+    margin-left:40%;
     width:400px;
     margin-top:70px;
     border-style: solid;
     border-color: black;
-    border-radius:0.3rem;
+    border-radius:0.6rem;
     border-width:1px;
     text-align:center;
     background-color: white;
-   
+    padding-bottom: 3px;
 }
 #formA {
 
@@ -136,39 +136,41 @@ a:hover {
     color: blue;
 }
 
-.details{
-
-    margin-top:8%;
-    margin-left:38%;
-    width:50%;
-    height: 1%;
-    background-color: blueviolet;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight : 1px;
-    font-style: italic;
-    padding-left: 10%;
-    padding-bottom: 1%;
-    padding-top: 1%;
-    font-size: 1px;
-    opacity: 0.8;
-    font-size: 20px;
+footer{
+    background-color: black;
     color: white;
-    
-    }
-    
-    .det{
-        margin: 3%;
-    }
+    margin-top: 19.5%;
+    padding: 0.05%;
 
+}
+ .foot {
+    font-size: 100%;
+    padding: 0px;
 
+} 
+.link{
+    color: black;
+    margin-left: 30%;
+    text-decoration: none;
+}
+
+.name{
+    float: left;
+    color: white;
+    background-color: #333;
+    opacity: 0.5;
+    padding-left:0.4%; 
+    padding-right:0.4%; 
+    border-radius: 2%;
+  
+}
+
+.name p{
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
  @media only screen and (max-width: 600px) {
-    #image2 {
-        display:none;
-    }
-    #image1 {
-        height :50%;
-        width:100%;
-    }
+
     #left {
         margin-top:0px;
         height:40%;
@@ -221,9 +223,6 @@ a:hover {
         background:none;
         background-color: darkturquoise;
       }
-      #image2 {
-        display:none;
-    }
 
     #form {
         text-align:center; 
