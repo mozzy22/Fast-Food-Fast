@@ -1,0 +1,408 @@
+body {
+    margin: 0;
+    font-family:  sans-serif;
+    background-color: white;
+    background:url(../IMAGES/bg2.jpg) no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+
+p{
+    text-align: center;
+    margin-top:10px;
+    font-family:sans-serif;
+    font-size:xx-large;
+}
+
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+ 
+  #left {
+      float: left;
+      width : 200px;
+      height: 640px;
+      background-color: black;
+  }
+
+
+
+ span{
+    margin:7px;
+    font-family:sans-serif;
+    font-size:medium;
+    font-weight:0.1px;
+ }
+
+ #logo{
+ width:200px;
+ margin-top: 150px;
+
+ }
+
+ .tab {
+     margin-top: 100px;
+    float: right;
+    border: 1px solid #ccc;
+    background-color:green;
+    width: 15%;
+    height: 300px;
+    border-radius: 5px;
+   
+}
+
+
+.tab button {
+    display: block;
+    background-color: inherit;
+    color:white;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+
+.tab button:hover {
+    background-color: rgb(224, 228, 224);
+}
+
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+
+.tabcontent {
+    float: right;
+    padding: 0px 12px;
+    width: 65%;
+    height: 640px;
+    display: none; 
+    margin-left: 10px;
+    background-color: white;
+    border-style: solid;
+    border-color:green;
+    border-radius:1rem;
+    border-width:1px;
+    padding: 8px;
+}
+
+#div1{
+    width:60%;
+    height: 580px;
+    margin-top:40px;
+    border-width:1px;
+    text-align:center;
+    margin-right: 50px;
+    overflow: auto;
+}
+
+.inputbutton4 {
+   
+    margin:2px;
+    background-color:#4CAF50;
+    border: none;
+    border-radius: 0.3rem;
+    color: white;
+    padding: 4px ;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+
+
+
+}
+
+select {
+    padding: 2px;
+    margin:2px;
+    width: 45%;
+    border-radius: 2px;
+    color:tomato;
+    border-radius: 0.3rem;
+    background-color:white;
+    border-style: solid;
+    border-color:green;
+    font-family:sans-serif;
+    font-size:medium;
+}
+
+#div2 {
+    width:45%;
+    height: 600px;
+    margin-top:40px;
+    text-align:center;
+    margin-right: 100px;
+    overflow: auto;
+
+}
+
+.orders {
+    padding: 20px;
+    height: 50px;
+    width :45;
+    border-top: none;
+    border-bottom-style: solid ;
+    border-bottom-color:green;
+    border-right-style: solid ;
+    border-right-color:green;
+    border-left-style: solid ;
+    border-left-color:green;
+    border-radius:0.3rem;
+    border-width:1px;
+    position: relative;
+
+}
+
+
+.status{
+font-style: italic;
+font-family: cursive;
+position: absolute;
+bottom: 0;
+right: 0;
+font-weight: 0.3px;
+color: red;
+font-size: 15px;
+margin-top:20px;
+
+}
+
+.ordered {
+
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.orderTable{
+table-layout: fixed;
+overflow: auto;
+
+}
+td { width: 33%;
+    border-style: solid;
+    border-color: #4CAF50;
+    border-radius:0.5rem;
+    border-width:1px;
+ }
+
+.image{
+
+    display:block;
+    width : 100%;
+    margin-bottom: 5px;
+}
+
+.imagetitle{
+    padding: 0px;
+    border: 0px;
+    font-size: 20px;
+    color: firebrick;
+}
+
+
+ @media only screen and (max-width: 600px) {
+  
+    #left {
+    display: none;      
+    }
+
+    #form {
+        width:30%;
+        margin-top:300px;
+      
+       
+    }
+ 
+    .topnav a {
+        float: none;
+        width: 100%;
+        display:block;
+    }
+    body {
+        margin: 0;
+        font-family:  sans-serif;
+        background-color: white;
+        background:url(../IMAGES/bg2.jpg) no-repeat center center fixed;
+        background-size: cover;
+      }
+
+      table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+        position: relative;
+        width: 100%;
+
+    }
+    
+    
+.ordered {
+  margin-top: 0px;
+    font-size: small;
+
+}
+
+.tab {
+    margin-top: 100px;
+   float: right;
+   border: 1px solid #ccc;
+   background-color:green;
+   width: 20%;
+   height: 300px;
+   border-radius: 5px;
+  
+}
+
+.tabcontent {
+    float: right;
+    padding: 0px 12px;
+    width: 70%;
+    height: 100px;
+    display: none; 
+    margin-left: 0px;
+    background-color: white;
+    border-style: solid;
+    border-color:green;
+    border-radius:1rem;
+    border-width:1px;
+    padding: 8px;
+}
+	
+    
+  }
+
+
+
+@media only screen and ( max-width: 1100px) {
+    body {
+        margin: 0;
+        font-family:  sans-serif;
+        background:url(../IMAGES/bg2.jpg) no-repeat center center fixed;
+        background-size: cover;
+      }
+ 
+    #form {
+        text-align:center; 
+        width:100%;
+        margin-top:200px;
+        background-color:blanchedalmond;
+        margin-left:0px;
+       
+    }
+ 
+
+      #left {
+        display: none;      
+      }
+  
+    .topnav a {
+        float: none;
+        width: 100%;
+        display:block;
+    }
+    table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+        position: relative;
+        width: 100%;
+    }
+    
+    .ordered {
+        margin-top: 0px;
+        font-size: small;
+    
+    }
+    .tab {
+        margin-top: 100px;
+       float: right;
+       border: 1px solid #ccc;
+       background-color:green;
+       width: 20%;
+       height: 300px;
+       border-radius: 5px;
+      
+   }
+
+   .tabcontent {
+    float: right;
+    padding: 0px 12px;
+    width: 50%;
+    height: 100%;
+    display: none; 
+    margin-left: 0px;
+    background-color: white;
+    border-style: solid;
+    border-color:green;
+    border-radius:1rem;
+    border-width:1px;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+.orders {
+    padding: 20px;
+    height: 100px;
+    width :45;
+    border-top: none;
+    border-bottom-style: solid ;
+    border-bottom-color:green;
+    border-right-style: solid ;
+    border-right-color:green;
+    border-left-style: solid ;
+    border-left-color:green;
+    border-radius:0.3rem;
+    border-width:1px;
+    position: relative;
+
+}
+
+	
+	
+} 
+
